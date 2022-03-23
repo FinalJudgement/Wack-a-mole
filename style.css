@@ -1,0 +1,76 @@
+body {
+  background-color: #b3e89f;
+}
+
+header {
+  color: #73be59;
+  font-size: 35px;
+  text-align: center;
+}
+.container {
+  background-color: #f3730e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 900px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+.h1-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.grid {
+  margin: 5% 0 0 12%;
+  width: 606px;
+  height: 606px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.mole {
+  background-image: url("assets/images/mole.png");
+  background-size: cover;
+}
+
+.game-over-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 500px;
+  height: 400px;
+  font-size: 50px;
+  display: none;
+}
+
+button {
+  width: 300px;
+  height: 100px;
+  margin-top: 10%;
+  font-weight: bold;
+  background-color: #7faa4d;
+}
+
+button:hover {
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.5);
+}

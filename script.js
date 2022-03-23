@@ -29,7 +29,7 @@ function randomSquare() {
 
   setTimeout(() => {
     randomSquare.classList.add("mole");
-  }, Math.floor(((Math.random() * 10) / 1 + 2) * 100));
+  }, Math.floor(((Math.random() * 10) / 1 + 1) * 100));
 
   hitPosition = randomSquare.id;
 }

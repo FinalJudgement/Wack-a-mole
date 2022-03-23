@@ -29,11 +29,11 @@ function randomSquare() {
 
   setTimeout(() => {
     randomSquare.classList.add("mole");
-  }, Math.floor(((Math.random() * 10) / 2 + 2) * 100));
+  }, Math.floor(((Math.random() * 10) / 1 + 2) * 100));
 
   hitPosition = randomSquare.id;
 }
-console.log(Math.floor(((Math.random() * 10) / 2 + 2) * 100));
+console.log(Math.floor(((Math.random() * 10) / 1 + 2) * 100));
 
 squares.forEach((square) => {
   square.addEventListener("mousedown", () => {
@@ -46,7 +46,7 @@ squares.forEach((square) => {
 });
 
 function moveMole() {
-  timerId = setInterval(randomSquare, 1000);
+  timerId = setInterval(randomSquare, 1500);
 }
 function countDown() {
   currentTime--;
